@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jumpboot"
+version = "0.1.0"
+description = "A simple workflow launcher CLI"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Kush", email = "cuberkc@gmail.com" }
+]
+
+[project.scripts]
+jumpboot = "jumpboot.jumpboot:jumpboot"
+jmp = "jumpboot.jmp:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

@@ -1,0 +1,5 @@
+deb_dist/
+dist/
+jumpboot.egg-info/
+build/
+*.tar.gz
