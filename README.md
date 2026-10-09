@@ -22,7 +22,7 @@ winget install KushChandak.Jumpboot
 
 Open a new terminal afterwards so `jumpboot` and `jmp` are picked up.
 
-> **Note:** the Windows executables are built with PyInstaller, which some antivirus tools flag as suspicious. This is a known false-positive pattern. If Defender complains, the source code in this repo is what the executables are built from.
+> **Note:** the Windows executables are built with PyInstaller, which some antivirus tools flag as suspicious. This is a known false-positive pattern. If Defender complains, just allow the executable to run by enabling it from Windows Security Settings
 
 ### Linux (apt)
 
